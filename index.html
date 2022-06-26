@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bali</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <ul class="kiri-section">
+            <li><a href="#cl">Culture</a></li>
+            <li><a href="#ds">Destination</a></li>
+        </ul>
+
+        <div class="logo">
+            <a href="#home"><img src="assets/images/Logo.png" alt="logo"/></a>
+        </div>
+
+        <ul class="kanan-section">
+            <li><a href="#tb">Tribe</a></li>
+            <li><a href="#fd">Food</a></li>
+        </ul>
+
+        <div class="search">
+            <img src="assets/icons/search.png" alt="" />
+        </div>
+    </div>
+
+    
+    <div class="video-section">
+        <div class="play" onclick="toggle()">
+            <img src="assets/icons/play.png" alt="play">
+        </div>
+    </div>
+    
+    <div class="if-video" id="play">
+        <h3 class="close" id="close" onclick="toggle()">x</h3>
+        <div class="if-video-main">
+            <iframe src="https://www.youtube.com/embed/sRExSQv7th8" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" aullow="autoplay" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <img src="assets/images/Rectangle.png" alt="" class="titik">
+    <div class="main-header" id="home">
+            <p>Bali adalah salah satu pulau paling terkenal di kepulauan Indonesia. Pulau ini merupakan rumah bagi budaya kuno yang terkenal dengan keramahannya yang hangat.</p>
+        </div>
+        <img class="imgMH" src="assets/images/Bali.png" alt="" />
+
+    <div class="read-more">
+        <a href="">Read More</a>
+    </div>
+
+    <div class="wrapper" id="cl">
+        <div class="cl">
+            <h1 class="culture">CULTURE</h1>
+            <h1 class="bigCulture">CULTURE</h1>
+        </div>
+        <div class="kecak">
+            <img class="imgKecak" src="assets/images/kecak.png" alt="tari Kecak">
+            <p class="kecakDance">KECAK <br> DANCE</p>
+            <button data-modal-target="#modal" class="vKecak">view</button>
+            <div class="modal" id="modal">
+                <div class="modalHeader">
+                    <div class="title">Kecak Dance</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modalBody">
+                    <!-- <video width="1000px" controls src="Never gonna give you up entire video (No ads).mp4"></video> -->
+                    <iframe src="https://www.youtube.com/embed/6P5QbkISK9s" frameborder="0" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" aullow="autoplay" allowfullscreen></iframe>
+                    <p>Sejarah tari kecak berawal dari ide seorang penari Bali bernama I Wayan Limbak, bersama dengan pelukis berkebangsaan Jerman yaitu Walter Spies. Keduanya berkolaborasi mengambil serta memodifikasi beberapa unsur tari Sang Hyang untuk menciptakan tari kecak. Sekitar tahun 1930-an, tari kecak mulai diperkenalkan. Seperti dijelaskan sebelumnya, tari kecak berasal dari tradisi Sang Hyang. Sebuah bentuk kegiatan adat untuk menolak bala. Para pelakunya akan menari dalam kondisi tidak sadar, dan mulai melakukan komunikasi dengan para dewa serta roh leluhur.
+                        <br><span>Source : https://katadata.co.id/</span></p>
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </div>
+        
+        <div class="ogoh">
+            <img class="imgOgoh" src="assets/images/ogoh.png" alt="ogoh-ogoh">
+            <p class="ogoh-ogoh">OGOH <br> OGOH</p>
+            <button data-modal-target="#modal2" class="vOgoh">view</button>
+            <div class="modal2" id="modal2">
+                <div class="modalHeader2">
+                    <div class="title2">Ogoh Ogoh</div>
+                    <button data-close-button class="close-button2">&times;</button>
+                </div>
+                <div class="modalBody2">
+                    <!-- <video width="1000px" controls src="Never gonna give you up entire video (No ads).mp4"></video> -->
+                    <iframe src="https://www.youtube.com/embed/A19aqDgLGSg" frameborder="0" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" aullow="autoplay" allowfullscreen></iframe>
+                    <p>Ogoh-ogoh adalah karya seni patung yang diarak dalam sebuah pawai menuju perayaan Hari Raya Nyepi. Ogoh-ogoh menggambarkan sebuah tokoh Hindu yang bernama Bhuta Kala.
+                        Ogoh-ogoh yang berukuran besar menyerupai patung raksasa, dibawa oleh sekelompok masyarakat mengelilingi desa pada saat menjelang malam sebelum Hari Raya Nyepi. Ogoh-Ogoh menjadi bagian dari ritual masyarakat Hindu jelang perayaan Nyepi. Menurut situs Pemerintah Kabupaten Buleleng, ogoh-ogoh berasal dari kata ogah-ogah yang merupakan bahasa Bali dengan makna sesuatu yang digoyang-goyangkan. Pada tahun 1983, wujud Bhuta Kala mulai dibuat berkaitan dengan ritual Nyepi di Bali.
+                        <br><span>Source : https://news.detik.com/</span></p>
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </div>
+        
+        <div class="ngaben">
+            <img class="imgNgaben" src="assets/images/ngaben.png" alt="ngaben">
+            <p class="upcNgaben">NGABEN</p>
+            <button data-modal-target="#modal3" class="vNgaben">view</button>
+            <div class="modal3" id="modal3">
+                <div class="modalHeader3">
+                    <div class="title3">Ngaben</div>
+                    <button data-close-button class="close-button3">&times;</button>
+                </div>
+                <div class="modalBody3">
+                    <!-- <video width="1000px" controls src="Never gonna give you up entire video (No ads).mp4"></video> -->
+                    <iframe src="https://www.youtube.com/embed/Xot2W7fHoew" frameborder="0" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" aullow="autoplay" allowfullscreen></iframe>
+                    <p>Ngaben merupakan prosesi upacara pembakaran jenazah atau kremasi. kata “Ngaben” berasal dari kata “beya” yang artinya bekal.
+                        Ngaben disebut juga palebon yang berasal dari kata “lebu” yang berarti prathiwi atau tanah (debu).
+                        Untuk membuat tubuh manusia meninggal dunia menjadi tanah, salah satunya dengan dibakar.
+                        Dalam ajaran Hindu, selain dipercaya sebagai dewa pencipta, Dewa Brahma memiliki wujud sebagai Dewa Api. Jadi upacara Ngaben adalah proses penyucian roh dengan cara dibakar menggunakan api agar bisa kembali ke Sang Pencipta.
+                        <br><span>Source : https://tribunnews.com/</span></p>
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </div>
+    </div>
+    </div>
+
+    <div class="destination" id="ds">
+        <div class="ds-countainer">
+            <div class="ds-title">
+                <h1>Destination</h1>
+                <h2>Destination</h2>
+            </div>
+            <div class="ds-content">
+                <div class="ds-item">
+                    <div class="item" id="nusaDua" onclick="location.href='html/nusa-dua.html'">
+                        <p>Nusa Dua</p>
+                        <!-- <img src="/assets/images/Nusa-Dua.png" alt="Nusa Dua">
+                        <h3>Nusa Dua</h3> -->
+                    </div>
+                    <div class="item" id="kuta" onclick="location.href='html/kuta.html'">
+                        <p>Kuta</p>
+                        <!-- <img src="/assets/images/Kuta.png" alt="Kuta"> -->
+                    </div>
+                    <div class="item" id="tanahLot" onclick="location.href='html/tanah-lot.html'">
+                        <p>Tanah Lot</p>
+                        <!-- <img src="/assets/images/Tanah-Lot.png" alt="Tanah-Lot"> -->
+                    </div>
+                    <div class="item" id="sanur" onclick="location.href='html/sanur.html'">
+                        <p>Sanur</p>
+                        <!-- <img src="/assets/images/Sanur.png" alt="Sanur"> -->
+                    </div>
+                    <div class="item" id="denpasar" onclick="location.href='html/denpasar.html'">
+                        <p>Denpasar</p>
+                        <!-- <img src="/assets/images/Denpasar.png" alt="Denpasar"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tribe" id="tb"></div>
+    <div class="titleTribe">
+        <h1 class="subTribe">TRIBE</h1>
+        <h2 class="miniSubTribe">TRIBE</h2>
+    </div>  
+    <div class="agaTribe">
+        <img src="assets/images/Tari.png" alt="Tari Bali" class="imgTribe">
+        <p class="agaText">AGA TRIBE</p>
+    </div>
+    <div class="tribeDesc">
+        <p class="tribeMainDesc">Suku Bali Aga merupakan salah satu sub etnis Bali yang menganggap mereka sebagai orang Bali asli. Bali Aga disebut gunung Bali dimana sejumlah suku Bali Aga ditemukan di Desa Trunyan. Istilah Bali Aga dianggap memberi makna kepada orang pegunungan yang kurang cerdas karena berada di daerah pegunungan yang masih merupakan daerah pedalaman dan belum terjamah oleh teknologi.</p>
+    </div>
+
+    <div class="FOOD" id="fd">
+        <h1>FOOD</h1>
+        <h2>FOOD</h2>
+    </div>
+
+<div class="container">
+
+    <div class="box" onclick="location.href='html/ayam-betutu.html'">
+        <div class="imgBox">
+            <img src="assets/images/Rectangle 16.png">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2>Ayam</h2>
+                <h2>Betutu</h2>
+            </div>
+        </div>
+    </div>
+    <div class="box" onclick="location.href='sate-lilit.html'">
+        <div class="imgBox">
+            <img src="assets/images/Rectangle 17.png">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2>Sate</h2>
+                <h2>Lilit</h2>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="assets/images/Rectangle 18.png">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2>Nasi</h2>
+                <h2>Campur</h2>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="assets/images/Rectangle 19.png">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2>Lawar</h2>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="assets/images/Rectangle 20.png">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2>Rujak</h2>
+                <h2>Bulele</h2>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="assets/images/Rectangle 21.png">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2>Nasi</h2>
+                <h2>Jinggo</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</div>
+</body>
+</html>

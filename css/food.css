@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    src: url(fonts/gillsans.TTF);
+}
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+.hero {
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+    position: absolute;
+    color: #fff;
+}
+
+.description {
+    position: relative;
+    padding: 0 150px;
+    width: 100%;
+    font-size: 22px;
+    background-color: #fff;
+}
+
+.description .judul {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.description .resep {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.description .resep h2 {
+    text-transform: uppercase;
+}
+
+.resep p {
+    margin-top: 20px;
+    font-weight: bold;
+}

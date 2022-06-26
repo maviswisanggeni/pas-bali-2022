@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    src: url(fonts/gillsans.TTF);
+}
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.countainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.countainer .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transition: 0s;
+    text-align: justify;
+}
+
+.countainer .main:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.main img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.main p {
+    font-size: 20px;
+}
+
+.main span {
+    color: rgb(187, 0, 255);
+    text-decoration: underline;
+}
+
+.countainer .sejarah {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: justify;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transition: 0s;
+}
+
+.countainer .sejarah:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.sejarah h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sejarah p {
+    font-size: 20px;
+}
+
+.sejarah ul {
+    margin-top: 20px;
+}
+
+.sejarah ul li{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.sejarah ul li a{
+    color: rgb(187, 0, 255);
+}
+
+.sejarah span {
+    color: rgb(187, 0, 255);
+    text-decoration: underline;
+}
